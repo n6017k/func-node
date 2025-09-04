@@ -7,7 +7,7 @@ export async function httpTrigger1(request: HttpRequest, context: InvocationCont
 
     context.log(`Name: ${name}`);
 
-    return { body: `Hello, ${name}!` };
+    return { body: `Hello there, ${name}!` };
 };
 
 
